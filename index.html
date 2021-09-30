@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div ">
+        <img src="./assets/images/menu.svg"class="menu-icon">
+        <img src="./assets/images/logo.png"class="logo">
+        
+        </div>
+        <div class="nav-middle flex-div ">
+            <div class="search-box flex-div">
+                <input type="text"placeholder="search">
+                <img src="./assets/images/search.svg">
+               </div>
+            <img src="./assets/images/mic.svg"class="mic-icon">
+        </div>
+            <div class="nav-right flex-div">
+        <img src="./assets/images/grid.svg">
+        <img src="./assets/images/dots.svg">
+        <img src="./assets/images/circle.svg" class="user-icon">
+        <hr>
+            </div>
+</nav>
+    <!---side bar-->
+    
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""> <img src="./assets/images/Home.svg" ><p>Home</p></a>
+     <a href=""> <img src="assets/images/explore.jpg"><p>Explore</p></a>
+     <a href=""> <img src="assets/images/subscription.svg"><p>subscriptions</p></a>
+     <a href=""> <img src="assets/images/library.png"><p>Library</p></a>
+     <a href=""> <img src="assets/images/history.svg"><p>History</p></a>
+ <hr>
+ 
+ <div class="best-playlist">
+    <h3>BEST OF YOUTUBE</h3>
+    <a href=""> <img src="./assets/images/Music.svg" ><p>Music</p></a>
+     <a href=""> <img src="assets/images/news.svg"><p>News</p></a>
+     <a href=""> <img src="assets/images/Movies.svg"><p>Movies</p></a>
+    </div>
+</div>
+</div>
+       
+        
+ <!-- Side  section ends here -->
+        </header>
+        <!-- Main page section starts here -->
+        <div class="container-fluid pb-3 main">
+            <div class="d-grid gap-3" style="grid-template-columns: .15fr 2fr;">
+                <!--side bar navigation starts-->
+                <div class="bg-white border-1">
+                    <div class="sideNavBar ">
+                        <div class="d-flex flex-column flex-shrink-0" style="width: 5rem;">
+                            <ul class="nav nav-pills flex-column mb-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" aria-current="page">
+                                        <div class="sideNavBarIcon"><svg class="bi me-2" width="16" height="16">
+                                                <use xlink:href="#home"></use>
+                                            </svg></div>
+                                        <div class="sideNavBarTitle">Home</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link text-black">
+                                        <svg class="bi me-2" width="16" height="16">
+                                            <use xlink:href="#compass"></use>
+                                        </svg>
+                                        <div class="sideNavBarTitle">Explore</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-black">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#table"></use>
+                                    </svg>
+                                    <div class="sideNavBarTitle">Subscriptions</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-black">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#library"></use>
+                                    </svg>
+                                    <div class="sideNavBarTitle">Library</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Side bar navigation ends -->
+            <div class="bg-white border-3">
+                <!-- category section begins -->
+                <ul class="nav nav-pills pb-3 border-bottom">
+                    <li class="nav-item me-2"><button class="category active">All</button></li>
+                    <li class="nav-item me-2"><button class="category">Category 1</button></li>
+                    <li class="nav-item me-2"><button class="category">Music</button></li>
+                    <li class="nav-item me-2"><button class="category">Movies</button></li>
+                    <li class="nav-item me-2"><button class="category">Cricket</button></li>
+                    <li class="nav-item me-2"><button class="category">Courses</button></li>
+                    <li class="nav-item me-2"><button class="category">HTML 5</button></li>
+                    <li class="nav-item me-2"><button class="category">UI Tricks</button></li>
+                    <li class="nav-item me-2"><button class="category">Cooking</button></li>
+                </ul>
+
+                <!-- category section ends -->
+                <div class="videos">
+                    <section class="videoSection">
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                        <a href="#" class="thumbnail" data-duration="12:24">
+                            <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                        </a>
+                        <div class="videoBottomSection">
+                            <a href="#">
+                                <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                            </a>
+                            <div class="videoDetails">
+                                <a href="#" class="videoTitle">Video Title</a>
+                                <a href="#" class="videoChannelName">Channel Name</a>
+                                <div class="video-metadata">
+                                    <span>12K views</span>
+                                    •
+                                    <span>1 week ago</span>
+                                </div> 
+                            </div>
+                        </div>
+                    </article>
+                    <article class="videoContainer">
+                        <a href="#" class="thumbnail" data-duration="12:24">
+                            <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                        </a>
+                        <div class="videoBottomSection">
+                            <a href="#">
+                                <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                            </a>
+                            <div class="videoDetails">
+                                <a href="#" class="videoTitle">Video Title</a>
+                                <a href="#" class="videoChannelName">Channel Name</a>
+                                <div class="video-metadata">
+                                    <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="videoContainer">
+                            <a href="#" class="thumbnail" data-duration="12:24">
+                                <img class="thumbnailImage" src="http://unsplash.it/250/150?gravity=center" />
+                            </a>
+                            <div class="videoBottomSection">
+                                <a href="#">
+                                    <img class="channelIcon" src="http://unsplash.it/36/36?gravity=center" />
+                                </a>
+                                <div class="videoDetails">
+                                    <a href="#" class="videoTitle">Video Title</a>
+                                    <a href="#" class="videoChannelName">Channel Name</a>
+                                    <div class="video-metadata">
+                                        <span>12K views</span>
+                                        •
+                                        <span>1 week ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main section ends here -->
+    <script : src="scripts/main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>   
